@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_insert"
+                android:text="insert"
+                android:layout_weight="1.0"
+                android:layout_width="0dp"
+                android:layout_height="60dp"/>
+
+            <Button
+                android:id="@+id/btn_query"
+                android:text="query"
+                android:layout_weight="1.0"
+                android:layout_width="0dp"
+                android:layout_height="60dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_update"
+                android:text="update"
+                android:layout_weight="1.0"
+                android:layout_width="0dp"
+                android:layout_height="60dp"/>
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:text="delete"
+                android:layout_weight="1.0"
+                android:layout_width="0dp"
+                android:layout_height="60dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_result"
+        android:padding="16dp"
+        android:text="result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>
